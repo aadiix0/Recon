@@ -33,7 +33,7 @@ All Bug Bounty Recon Tools in One File
   
 <h2>Installing Tools</h2>
 <addr>
-> git clone https://github.com/D1rk9ghT/Recon.git <br>
+> git clone https://github.com/aadiix0/Recon.git <br>
 > cd recon <br>
 > chmod +x recon-tools.sh <br>
 > ./recon-tools.sh <br>
