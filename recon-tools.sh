@@ -50,6 +50,16 @@ echo "done"
 cd $home/go/bin
 cp * /usr/local/bin
 
+#Nmap
+echo -e "\e[93m\e[1m----> Installing nmap";
+apt-get install -y nmap > /dev/null 2>&1;
+echo -e "\e[32mDone! Nmap installed.";
+
+#Naabu
+echo -e "\e[93m\e[1m----> Installing Naabu";
+go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu > /dev/null 2>&1 && ln -s ~/go/bin/naabu /usr/local/bin/;
+echo -e "\e[32mDone! Naabu installed."; echo "";
+
 #Installing Findomain Tool
 cd $home
 git clone https://github.com/findomain/findomain.git
