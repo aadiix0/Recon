@@ -64,6 +64,7 @@ echo -e "\e[32mDone! Naabu installed."; echo "";
 cd $home
 git clone https://github.com/findomain/findomain.git
 cd findomain
+cargo update
 cargo build --release
 sudo cp target/release/findomain /usr/bin/
 
