@@ -23,25 +23,11 @@ echo "done"
 go install github.com/tomnomnom/assetfinder@latest
 echo "done"
 
-#Installing anew tool
- go install github.com/tomnomnom/anew@latest
- echo "done"
-
- #Installing httprob tool
- go install github.com/tomnomnom/httprobe@latest
- echo "done"
-
-#Installing meg tool
-go install github.com/tomnomnom/meg@latest
-echo "done"
 
 #Installing gau tool
 go install github.com/lc/gau@latest
 echo "done"
 
-#Installing Dalfox tool 
-go install github.com/hahwul/dalfox/v2@latest
-echo "done"
 
 #Installing Haktrails Tool
 go install github.com/hakluke/haktrails@latest
@@ -51,25 +37,11 @@ echo "done"
 go install github.com/003random/getJS@latest
 echo "done"
 
-#Installing gospider tool
-go install github.com/jaeles-project/gospider@latest
-echo "done"
 
 Installing Kxss tool
 go install github.com/Emoe/kxss@latest
 echo "done"
 
-#Installing html-tool
-go install github.com/tomnomnom/hacks/html-tool@latest
-echo "done"
-
-#Installing Haktldextract tool
-go install github.com/hakluke/haktldextract@latest
-echo "done"
-
-#Installing Qsreplace tool
-go install github.com/tomnomnom/qsreplace@latest
-echo "done"
 
 #Installing Ffuf tool
 go install github.com/ffuf/ffuf@latest
@@ -85,11 +57,5 @@ cd findomain
 cargo build --release
 sudo cp target/release/findomain /usr/bin/
 
-#installing altdns 
-pip3 install altdns 
 
-#Installing airixss
-go install github.com/chromedp/chromedp@latest
-
-echo "Happy Hacking by @Hacktube5"
-
+echo "Happy Hacking by @AADII"
