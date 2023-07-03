@@ -55,6 +55,21 @@ echo -e "\e[93m\e[1m----> Installing nmap";
 apt-get install -y nmap > /dev/null 2>&1;
 echo -e "\e[32mDone! Nmap installed.";
 
+#Arjun
+echo -e "\e[93m\e[1m----> Installing Arjun";
+apt install arjun
+echo -e "\e[32mDone! Arjun installed.";
+
+#Dirsearch
+echo -e "\e[93m\e[1m----> Installing dirsearch";
+apt install dirsearch
+echo -e "\e[32mDone! Dirsearch installed.";
+
+#WPScan
+echo -e "\e[93m\e[1m----> Installing wpscan";
+gem install wpscan > /dev/null 2>&1;
+echo -e "\e[32mDone! wpscan installed."; echo "";
+
 #Naabu
 echo -e "\e[93m\e[1m----> Installing Naabu";
 go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu > /dev/null 2>&1 && ln -s ~/go/bin/naabu /usr/local/bin/;
